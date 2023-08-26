@@ -1,19 +1,19 @@
-//
-//  ContentView.swift
-//  TravelLog
-//
-//  Created by Yash Somkuwar on 26/08/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Travelog")
+                .font(.largeTitle)
+                .padding(.bottom, 20)
+            
+            Image(systemName: "airplane.circle.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100, height: 100)
+            
+            Text("Your travel diary.")
+                .font(.subheadline)
         }
         .padding()
     }

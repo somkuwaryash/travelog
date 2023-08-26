@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct TravelLogApp: App {
+    // Shared view model
+    @StateObject var viewModel = AppViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if !viewModel.didShowLaunchScreen {
+                LaunchView().environmentObject(viewModel)
+            } else if !viewModel.isLoggedIn {
+                LoginView().environmentObject(viewModel)
+            } else {
+                HomeView().environmentObject(viewModel)
+            }
         }
     }
 }
+

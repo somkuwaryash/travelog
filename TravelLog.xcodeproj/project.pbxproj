@@ -11,6 +11,14 @@
 		E3224FB02A99914900C2CA33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224FAF2A99914900C2CA33 /* ContentView.swift */; };
 		E3224FB22A99914A00C2CA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3224FB12A99914A00C2CA33 /* Assets.xcassets */; };
 		E3224FB62A99914A00C2CA33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3224FB52A99914A00C2CA33 /* Preview Assets.xcassets */; };
+		E3224FBD2A99946700C2CA33 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224FBC2A99946700C2CA33 /* LaunchView.swift */; };
+		E3224FBF2A99975300C2CA33 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224FBE2A99975300C2CA33 /* LoginView.swift */; };
+		E3224FC12A999FA200C2CA33 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224FC02A999FA200C2CA33 /* HomeView.swift */; };
+		E3224FC32A99A48200C2CA33 /* AddTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224FC22A99A48200C2CA33 /* AddTripView.swift */; };
+		E3224FC52A99B0B100C2CA33 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224FC42A99B0B100C2CA33 /* TripDetailView.swift */; };
+		E3224FC72A99B0EE00C2CA33 /* EditTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224FC62A99B0EE00C2CA33 /* EditTripView.swift */; };
+		E3224FC92A99CF9C00C2CA33 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224FC82A99CF9C00C2CA33 /* Notification.swift */; };
+		E3224FCB2A99D05300C2CA33 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224FCA2A99D05300C2CA33 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		E3224FB12A99914A00C2CA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3224FB32A99914A00C2CA33 /* TravelLog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TravelLog.entitlements; sourceTree = "<group>"; };
 		E3224FB52A99914A00C2CA33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3224FBC2A99946700C2CA33 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		E3224FBE2A99975300C2CA33 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E3224FC02A999FA200C2CA33 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E3224FC22A99A48200C2CA33 /* AddTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripView.swift; sourceTree = "<group>"; };
+		E3224FC42A99B0B100C2CA33 /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		E3224FC62A99B0EE00C2CA33 /* EditTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTripView.swift; sourceTree = "<group>"; };
+		E3224FC82A99CF9C00C2CA33 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		E3224FCA2A99D05300C2CA33 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				E3224FAD2A99914900C2CA33 /* TravelLogApp.swift */,
+				E3224FC82A99CF9C00C2CA33 /* Notification.swift */,
 				E3224FAF2A99914900C2CA33 /* ContentView.swift */,
+				E3224FC02A999FA200C2CA33 /* HomeView.swift */,
+				E3224FC42A99B0B100C2CA33 /* TripDetailView.swift */,
+				E3224FC62A99B0EE00C2CA33 /* EditTripView.swift */,
+				E3224FC22A99A48200C2CA33 /* AddTripView.swift */,
+				E3224FBC2A99946700C2CA33 /* LaunchView.swift */,
+				E3224FBE2A99975300C2CA33 /* LoginView.swift */,
+				E3224FCA2A99D05300C2CA33 /* SettingsView.swift */,
 				E3224FB12A99914A00C2CA33 /* Assets.xcassets */,
 				E3224FB32A99914A00C2CA33 /* TravelLog.entitlements */,
 				E3224FB42A99914A00C2CA33 /* Preview Content */,
@@ -139,8 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3224FC52A99B0B100C2CA33 /* TripDetailView.swift in Sources */,
 				E3224FB02A99914900C2CA33 /* ContentView.swift in Sources */,
+				E3224FC92A99CF9C00C2CA33 /* Notification.swift in Sources */,
+				E3224FBD2A99946700C2CA33 /* LaunchView.swift in Sources */,
+				E3224FBF2A99975300C2CA33 /* LoginView.swift in Sources */,
+				E3224FCB2A99D05300C2CA33 /* SettingsView.swift in Sources */,
+				E3224FC12A999FA200C2CA33 /* HomeView.swift in Sources */,
+				E3224FC72A99B0EE00C2CA33 /* EditTripView.swift in Sources */,
 				E3224FAE2A99914900C2CA33 /* TravelLogApp.swift in Sources */,
+				E3224FC32A99A48200C2CA33 /* AddTripView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
