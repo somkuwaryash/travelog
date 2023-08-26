@@ -1,4 +1,4 @@
-```markdown
+
 # TravelLog 🌍✈️
 
 A Swift-based iOS application for travel enthusiasts to log and manage their trips.
