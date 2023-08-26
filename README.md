@@ -23,9 +23,9 @@ A Swift-based iOS application for travel enthusiasts to log and manage their tri
 
 ## Screenshots
 <!-- Add screenshots of your app. -->
-- ![Login Screen](link_to_login_screenshot.png)
-- ![Home Screen](link_to_home_screenshot.png)
-- ... and more
+- ![Login Screen](image1.png)
+- ![Home Screen](image2.png)
+- (image3.png)
 
 ## Installation
 1. Clone the repository:
